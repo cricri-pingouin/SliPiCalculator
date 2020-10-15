@@ -32,7 +32,7 @@ object Form1: TForm1
   object lblTime: TLabel
     Left = 9
     Top = 164
-    Width = 305
+    Width = 96
     Height = 16
     Caption = 'Calculation time:'
   end
