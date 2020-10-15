@@ -3,8 +3,7 @@ unit Unit1;
 interface
 
 uses
-  Windows, SysUtils, Classes, Controls, Forms, Menus, ExtCtrls, Dialogs,
-  StdCtrls;
+  SysUtils, Classes, Controls, Forms, StdCtrls;
 
 type
   TForm1 = class(TForm)
