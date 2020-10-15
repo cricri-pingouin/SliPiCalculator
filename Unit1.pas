@@ -57,9 +57,9 @@ var
 label
   _start;
 begin
-  numerator := 1;
-  denominator := 1;
   asm
+        mov     numerator, 1
+        mov     denominator, 1
         fldz
         _start  :
         //sum := sum + numerator / denominator;
